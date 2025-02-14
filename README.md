@@ -12,6 +12,7 @@ What's new:
 
 Things to consider next year:
 
+- implement react-native-copilot (tutorial)
 - send sms if user didn't respond
 - connect to esp network
 - create a schema and controller for max sensor
