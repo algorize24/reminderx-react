@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "reminderx",
+    "slug": "reminderx",
+    "version": "1.3.0",
+    "newArchEnabled": true,
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#1E1E1E",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1E1E1E",
+      "duration": 0
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.siuzy.reminderx",
+      "notification": {
+        "ios": {
+          "sound": true
+        }
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.siuzy.reminderx",
+      "googleServicesFile": "./google-services.json",
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_BACKGROUND_LOCATION"
+      ],
+      "isAndroidBackgroundLocationEnabled": true,
+      "isAndroidForegroundServiceEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [["expo-font"]],
+    "extra": {
+      "eas": {
+        "projectId": "3887c08e-75b7-42b1-978e-475bd64ce31a"
+      }
+    },
+    "owner": "siuzy"
+  }
+}
